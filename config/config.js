@@ -10,13 +10,7 @@ module.exports = {
   },
   test: { storage: "database.test.sqlite", dialect: "sqlite" },
   production: {
-    username: "root",
-    password: null,
-    database: "database_production",
-    host: "127.0.0.1",
-    dialect: "sqlite",
-
-    use_env_variable: "HEROKU_POSTGRESQL_PINK_URL",
+    use_env_variable: "HEROKU_POSTGRESQL_FÄRG_URL",
     dialectOptions: {
       ssl: {
         require: true,
