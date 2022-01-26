@@ -18,11 +18,11 @@
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4",
     "random-word-slugs": "^0.1.6",
+    "sequelize-cli": "^6.4.1",
     "sequelize": "^6.13.0",
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
-    "sequelize-cli": "^6.4.1",
     "jest": "^27.4.7",
     "nodemon": "^2.0.15",
     "stylus": "^0.54.8",
