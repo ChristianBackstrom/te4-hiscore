@@ -10,7 +10,7 @@ module.exports = {
   },
   test: { storage: "database.test.sqlite", dialect: "sqlite" },
   production: {
-    use_env_variable: "HEROKU_POSTGRESQL_FÄRG_URL",
+    use_env_variable: "DATABASE_URL",
     dialectOptions: {
       ssl: {
         require: true,
